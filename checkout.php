@@ -10,7 +10,7 @@ if(isset($_POST['order_btn'])){
    $method = $_POST['method'];
    $address = $_POST['address'];
    
-
+//second commit
    $cart_query = mysqli_query($mysqli, "SELECT * FROM `cart`");
    $price_total = 0;
    if(mysqli_num_rows($cart_query) > 0){
